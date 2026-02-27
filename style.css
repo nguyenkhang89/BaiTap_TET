@@ -1,1 +1,61 @@
- 
+body {
+    background-color: #e3f2fd; 
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.TieuDe {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    color: #0d47a1;
+}
+
+.menu {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: bold;
+}
+
+.BenTrai {
+    display: flex;
+    gap: 15px;
+}
+.MenuBenTrai {
+    width: 220px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    min-height: 300px;
+}
+.MenuBenTrai a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #f0f0f0;
+}
+.MenuBenTrai a:hover {
+    background-color: #e3f2fd;
+    border-radius: 8px;
+}
+.NoiDung {
+    flex: 1;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    min-height: 300px;
+}
