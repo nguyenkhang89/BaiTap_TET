@@ -43,3 +43,13 @@ body {
     border-radius: 12px;
     min-height: 300px;
 }
+
+footer {
+    background-color: #f0f7ff; 
+    color: #0d47a1; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d1e3f8;
+}    
